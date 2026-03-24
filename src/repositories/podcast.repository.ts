@@ -1,0 +1,60 @@
+import { PodcastCategory, PodcastModel } from "../models/podcast.model";
+
+export const podcastRepository: PodcastModel[] = [
+  {
+    podcastName: "flow",
+    episode: "CBUM - Flow #319",
+    videoId: "pQSuQmUfS30",
+    cover: "https://i.ytimg.com/vi/pQSuQmUfS30/maxresdefault.jpg",
+    link: "https://www.youtube.com/watch?v=pQSuQmUfS30",
+    categories: [PodcastCategory.HEALTH, PodcastCategory.SPORT, PodcastCategory.BODYBUILDER],
+  },
+  {
+    podcastName: "flow",
+    episode: "RUBENS BARRICHELLO - Flow #339",
+    videoId: "4KDGTdiOV4I",
+    cover: "https://i.ytimg.com/vi/4KDGTdiOV4I/maxresdefault.jpg",
+    link: "https://www.youtube.com/watch?v=4KDGTdiOV4I",
+    categories: [PodcastCategory.SPORT, PodcastCategory.RACING],
+  },
+  {
+    podcastName: "flow",
+    episode: "LUISA SONZA - Flow #287",
+    videoId: "qTGzxdlTBt0",
+    cover: "https://i.ytimg.com/vi/qTGzxdlTBt0/maxresdefault.jpg",
+    link: "https://www.youtube.com/watch?v=qTGzxdlTBt0",
+    categories: [PodcastCategory.HUMOR],
+  },
+  {
+    podcastName: "inteligencia ltda",
+    episode: "NICOLA CARIOLA - Inteligência Ltda. #545",
+    videoId: "obTSCvsAXHs",
+    cover: "https://i.ytimg.com/vi/obTSCvsAXHs/maxresdefault.jpg",
+    link: "https://www.youtube.com/watch?v=obTSCvsAXHs",
+    categories: [PodcastCategory.MINDSET, PodcastCategory.BUSINESS],
+  },
+  {
+    podcastName: "inteligencia ltda",
+    episode: "JOEL JOTA - Inteligência Ltda. #539",
+    videoId: "b7ZIbHa-P3s",
+    cover: "https://i.ytimg.com/vi/b7ZIbHa-P3s/maxresdefault.jpg",
+    link: "https://www.youtube.com/watch?v=b7ZIbHa-P3s",
+    categories: [PodcastCategory.MINDSET],
+  },
+  {
+    podcastName: "podpah",
+    episode: "IGÃO & MIKE - Podpah #750",
+    videoId: "XuWFlNqkFqc",
+    cover: "https://i.ytimg.com/vi/XuWFlNqkFqc/maxresdefault.jpg",
+    link: "https://www.youtube.com/watch?v=XuWFlNqkFqc",
+    categories: [PodcastCategory.HUMOR],
+  },
+  {
+    podcastName: "techweekly",
+    episode: "The Future of AI in Software Development - TechWeekly #12",
+    videoId: "dQw4w9WgXcQ",
+    cover: "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+    link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    categories: [PodcastCategory.TECHNOLOGY],
+  },
+];
